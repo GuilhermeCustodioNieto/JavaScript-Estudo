@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    
+}
+
+body{
+    background-color: #d9d9d9;
+}
+
+
