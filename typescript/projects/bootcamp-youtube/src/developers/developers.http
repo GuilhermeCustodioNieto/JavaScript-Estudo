@@ -1,0 +1,28 @@
+### Listar developers
+GET http://localhost:3000/developers
+
+### Listar developers por id
+GET http://localhost:3000/developers/1
+
+### Criar developers
+POST http://localhost:3000/developers
+Content-Type: application/json
+
+{
+    "name": "guilherme custódio",
+    "email": "guilhermecustodionieto@gmail.com",
+    "dateOfBirth": "2007-11-09"
+}
+
+### Atuaizar developers
+PATCH http://localhost:3000/developers/1
+Content-Type: application/json
+
+{
+    "name": "guilherme custódio",
+    "email": "guilhermecustodionieto@gmail.com",
+    "dateOfBirth": "2007-11-09"
+}
+
+### Deletar developers
+DELETE http://localhost:3000/developers/1
