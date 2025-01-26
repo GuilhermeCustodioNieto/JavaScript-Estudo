@@ -1,13 +1,14 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+import Evento from './components/Evento'
+
 
 function App() {
-  const name = "Guilherme";
 
   return (
     <div className="App">
-      <h1>Hello, world</h1>
-
-      <h1>Seu nome é: {name}</h1>
+      <HelloWorld></HelloWorld>
+      <Evento></Evento>
     </div>
   );
 }
