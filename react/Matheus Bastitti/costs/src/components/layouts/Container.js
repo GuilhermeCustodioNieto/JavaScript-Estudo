@@ -1,11 +1,11 @@
 import React from 'react'
-
+import styles from './Container.module.css'
 function Container(props) {
     console.log(props.children);
     
 
   return (
-    <div className={`container ${props.customClass}`}>
+    <div className={`${styles.container} ${styles[props.customClass]}`}>
       {props.children}
     </div>
     
