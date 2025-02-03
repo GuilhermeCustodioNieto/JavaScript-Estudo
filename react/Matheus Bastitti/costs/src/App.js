@@ -7,6 +7,7 @@ import Container from './components/layouts/Container';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer'
 import Projects from './components/pages/Projects';
+import Project from './components/pages/Project';
 
 function App() {
   return (
@@ -17,13 +18,15 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home></Home>}></Route>
 
-          <Route exact path='/company' element={<Company></Company>}></Route>
+          <Route path='/company' element={<Company></Company>}></Route>
 
-          <Route exact path='/projects' element={<Projects></Projects>}></Route>
+          <Route path='/projects' element={<Projects></Projects>}></Route>
 
-          <Route exact path='/contact' element={<Contact></Contact>}></Route>
+          <Route path='/contact' element={<Contact></Contact>}></Route>
 
-          <Route exact path='/newproject' element={<NewProject></NewProject>}></Route>
+          <Route path='/newproject' element={<NewProject></NewProject>}></Route>
+          
+          <Route path='/projects/:id' element={<Project></Project>}></Route>
           </Routes>
         </Container>
         
