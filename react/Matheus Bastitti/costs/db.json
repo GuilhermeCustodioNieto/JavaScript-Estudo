@@ -1,15 +1,91 @@
 {
   "projects": [
     {
-      "id": "5790",
-      "name": "ecommerce-api sa16as161",
-      "budget": "555555",
+      "id": "9263",
+      "name": "Guilherme Custódio Nieto",
+      "budget": "21546",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
-      "costs": 0,
-      "services": []
+      "costs": null,
+      "services": [
+        {
+          "name": "TESTE",
+          "cost": "4444",
+          "id": "a9e9a08d-6873-42ff-b737-5fe3cadccbc3"
+        },
+        {
+          "name": "SADASSDA",
+          "cost": "44",
+          "description": "ASDASDAS",
+          "id": "560ee2db-fd73-4b9e-b944-44ac216ed36d"
+        }
+      ],
+      "cost": null
+    },
+    {
+      "id": "9263",
+      "name": "Guilherme Custódio Nieto",
+      "budget": "21546",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": null,
+      "services": [
+        {
+          "name": "asdsa",
+          "cost": "44",
+          "description": "ASDASDAS",
+          "id": "bc0534b0-21ea-4af4-b388-b23e9a898d4d"
+        }
+      ],
+      "cost": null
+    },
+    {
+      "id": "9263",
+      "name": "Guilherme Custódio Nieto",
+      "budget": "21546",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": null,
+      "services": [
+        {
+          "name": "erasdsaads",
+          "cost": "5555",
+          "description": "adsadas",
+          "id": "d50edf3d-5127-4646-bdf4-7c14f560b9cc"
+        }
+      ],
+      "cost": null
+    },
+    {
+      "id": "9263",
+      "name": "Guilherme Custódio Nieto",
+      "budget": "21546",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": null,
+      "services": [
+        {
+          "name": "erasdsaads",
+          "cost": "5555",
+          "description": "adsadas",
+          "id": "d50edf3d-5127-4646-bdf4-7c14f560b9cc"
+        },
+        {
+          "name": "yrtsdds",
+          "cost": "444",
+          "description": "332",
+          "id": "e39debfe-0020-47f3-a2b0-e3ac52b76bb1"
+        }
+      ],
+      "cost": null
     }
   ],
   "categories": [

@@ -16,12 +16,12 @@ function Message({type, msg}) {
         setVisible(true)
         const timer = setTimeout(() => {
             setVisible(false)
-        }, 3000)
+        }, 5000)
 
         return () => clearTimeout(timer)
     }, [msg])
 
-    console.log(`foi chamado`);
+    
     
 
   return (
